@@ -1,0 +1,32 @@
+body{
+    font-family: "Open Sans", "sans-serif";
+}
+
+header {
+    background-color: #25283D;
+    color:white;
+    padding: 5px;
+}
+
+.btn {
+    background-color: #98DFEA;
+}
+
+.navbar {
+    background-color: #8F3985;
+}
+
+.about{
+    background-color: white;
+    padding: 5px
+}
+
+#profile-pic{
+
+}
+
+footer {
+    background-color: #8F3985;
+    color: white;
+    padding: 20px;
+}
