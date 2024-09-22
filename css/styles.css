@@ -20,14 +20,22 @@ header {
 }
 
 .about{
-    background-color: white;
     padding: 5px
 }
 
-.contact-form {
+.portfolio {
     background-color: #25283D;
-    color: white;
 }
+
+.btn-primary {
+    background-color: #8F3985;
+    border: 0px;
+}
+
+.card-footer {
+    background: transparent;
+    border-top: 0px;
+  }
 
 .img-fluid{
     display: block;
