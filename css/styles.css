@@ -7,8 +7,6 @@ body{
 header {
     background-color: #25283D;
     color:white;
-    padding: 5px;
-    height: 1000px;
 }
 
 .btn {
@@ -19,8 +17,8 @@ header {
     background-color: #8F3985;
 }
 
-.about{
-    padding: 5px
+.accordion-item {
+    border: 0px;
 }
 
 .portfolio {
@@ -30,6 +28,12 @@ header {
 .btn-primary {
     background-color: #8F3985;
     border: 0px;
+}
+
+.card{
+    margin: 0px;
+    padding: 0px;
+    border: 0.5px solid bg-light;
 }
 
 .card-footer {
@@ -48,3 +52,138 @@ footer {
     color: white;
     padding: 20px;
 }
+
+/* .wrapper {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.heroText h1:nth-child(1) {
+    width: 17ch;
+    animation: typing 2s steps(17, end) forwards;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 305px;
+    margin: 0 0 0 35%;
+  }
+
+  .heroText h1:nth-child(2) {
+    opacity: 0;
+    background: linear-gradient(-90deg, white 5px,#0000 0) 10px 0,
+    linear-gradient(white 0 0) 0 0;
+    width: 12ch;
+    -webkit-background-clip:padding-box,text;
+    background-clip:padding-box,text;
+    background-repeat:no-repeat;
+    font-family: monospace;
+    overflow: hidden;
+    font-size: 2em;
+    border-right: 3px solid;
+    animation: typing2 2s steps(12,end) 2s forwards;
+    margin: 0 0 0 35%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+  }
+  
+
+  .heroText h1:nth-child(3) {
+    opacity: 0;
+    background: linear-gradient(-90deg, white 5px,#0000 0) 10px 0,
+    linear-gradient(white 0 0) 0 0;
+    width: 24ch;
+    -webkit-background-clip:padding-box,text;
+    background-clip:text;
+    background-repeat:no-repeat;
+    font-family: monospace;
+    overflow: hidden;
+    font-size: 2em;
+    border-right: 3px solid;
+    animation: typing3 2.2s steps(24,end) 4s forwards, blink .5s step-end infinite alternate;
+    margin: 0 0 0 35%;
+    white-space: nowrap;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+    0% {
+        width: 0;
+    }
+    1%, 99%{
+        border-right: 4px solid;
+    }
+
+    100%{
+        border-right: none;
+    }
+
+  }
+
+  @keyframes typing2 {
+    from {
+        width:0;
+    }
+    0% {
+      opacity: 0;
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+      border-right: 4px solid;
+    }
+    50% {
+      opacity: 1;
+      border-right: 4px solid;
+    }
+    99% {
+        opacity: 1;
+        border-right: 4px solid;
+    }
+
+    100% {
+      opacity: 1;
+      border-right: none;
+    }
+  }
+
+  @keyframes typing3 {
+    from {
+        width: 0;
+    }
+    0% {
+      opacity: 0;
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+      border-right: 4px solid;
+    }
+    50% {
+      opacity: 1;
+      border-right: 4px solid;
+    }
+    99% {
+        opacity: 1;
+        border-right: 4px solid;
+    }
+
+    100% {
+      opacity: 1;
+      border-right: 4px solid;
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  } */
